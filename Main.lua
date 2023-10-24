@@ -200,3 +200,27 @@ local headles = LIB("World", {
     Default = false,
     HoverText = "FE Headles lol get rekt roblox",
 })
+
+local AestheticLighting = LIB("Render", {
+    Name = "AestheticLighting",
+    Function = function(callback) 
+        if callback then
+    game.Lighting.Ambient = Color3.fromRGB(135, 31, 219)
+            game.Lighting.OutdoorAmbient = Color3.fromRGB(135, 31, 219)
+        end
+    end,
+    Default = false,
+    HoverText = "AestheticLighting"
+})
+
+local ChillLighting = LIB("Render", {
+    Name = "ChillLighting",
+    Function = function(callback) 
+        if callback then
+    game.Lighting.Ambient = Color3.fromRGB(32, 212, 212)
+            game.Lighting.OutdoorAmbient = Color3.fromRGB(32, 212, 212)
+        end
+    end,
+    Default = false,
+    HoverText = "ChillLighting"
+})
