@@ -183,7 +183,7 @@ local sui = LIB("Render", {
     Name = "FE kills",
     Function = function(callback) 
         if callback then
-			game.Players.LocalPlayer.leaderstats.Kills.Value = 999999
+	 game.Players.LocalPlayer.leaderstats.Kills.Value = 999999
         end
     end,
     Default = false,
