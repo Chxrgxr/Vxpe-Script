@@ -205,3 +205,13 @@ local dragon = LIB("World", {
     HoverText = "DragonBreath **FE**"
 })
                                 
+local iy = LIB("World", {
+    Name = "InfYield",
+    Function = function(callback) 
+        if callback then
+           loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source", true))()
+        end
+    end,
+    Default = false,
+    HoverText = "Inf Yield"
+})
